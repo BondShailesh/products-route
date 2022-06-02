@@ -6,7 +6,6 @@ import styles from "./route.module.css"
 function Product() {
 const [product,setProduct] = useState({})
 const {id} = useParams();
-
 useEffect(()=>{
     if(id){
       fetch(`http://localhost:8080/Products/${id}`)
@@ -19,9 +18,12 @@ useEffect(()=>{
 
   return (
     <div className={styles.product}>
-       <img src={product.img} alt="error" />
-       <p>{product.name}</p>
-       <p>RS {product.price}</p>
+      {(product.id ? 
+      <div>
+      <img src={product.img} alt="error" />
+      <p>{product.name}</p>
+      <p>{product.price}</p> </div> : "Product does not exist")}
+       
     </div>
   )
 }
