@@ -1,0 +1,8 @@
+{
+    "products":[
+        { "name" : "SmartPhone","price": 12000,"id" : 0,"img":"https://m.media-amazon.com/images/I/81HJ4pkOsiL._AC_UY218_.jpg"},
+        { "name" : "Shirts","price": 200,"id" : 1,"img":"https://m.media-amazon.com/images/I/513vcfOiSCL._AC_UL320_.jpg"},
+        { "name" : "Pants","price": 300,"id" : 3,"img":"https://m.media-amazon.com/images/I/81-9O33VgBL._AC_UL320_.jpg"},
+        { "name" : "Speaker","price": 900,"id" : 2,"img":"https://m.media-amazon.com/images/I/718DqdKu9tL._AC_UY218_.jpg"}
+    ]
+}   
